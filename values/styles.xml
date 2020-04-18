@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base_Dark">
+        <item name="android:alertDialogTheme">@style/Dark_dialog</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:colorControlNormal">#a21401</item>
+        <item name="android:colorControlActivated">@color/dark_actionbarBg</item>
+        <item name="android:colorPrimary">@color/dark_actionbarBg</item>
+        <item name="android:colorPrimaryDark">#720e01</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:timePickerDialogTheme">@style/Dark_datePicker</item>
+        <item name="android:datePickerDialogTheme">@style/Dark_datePicker</item>
+    </style>
+    <style name="Base_Light">
+        <item name="android:actionOverflowButtonStyle">@style/Light_MenuIcon</item>
+        <item name="android:alertDialogTheme">@style/Light_dialog</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:colorControlActivated">@color/light_actionbarBg</item>
+        <item name="android:colorPrimary">@color/light_actionbarBg</item>
+        <item name="android:colorPrimaryDark">#0063ad</item>
+        <item name="android:timePickerDialogTheme">@style/Light_datePicker</item>
+        <item name="android:datePickerDialogTheme">@style/Light_datePicker</item>
+        <item name="_listview">@android:style/Widget.Material.Light.ListView</item>
+    </style>
+    <style name="Dark_ActionBar">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:background">@color/dark_actionbarBg</item>
+        <item name="android:titleTextStyle">@style/Dark_ActionBar.TitleTextStyle</item>
+    </style>
+    <style name="Dark_ActionBar.TitleTextStyle">
+        <item name="android:textColor">@color/dark_actionbarColor</item>
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDx">1.5</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="android:shadowRadius">3.75</item>
+    </style>
+    <style name="Dark_ListViewStyle">
+        <item name="android:listSelector">@drawable/dark_listview_item_bg</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">@dimen/mediumMargin</item>
+    </style>
+    <style name="Dark_PopHeader">
+        <item name="android:textColor">@color/dark_actionbarColor</item>
+        <item name="android:background">@drawable/dark_dialog_head_bg</item>
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDx">1.3</item>
+        <item name="android:shadowDy">1.3</item>
+        <item name="android:shadowRadius">3.75</item>
+    </style>
+    <style name="Dark_datePicker">
+        <item name="android:colorPrimary">@color/dark_color1Level</item>
+        <item name="android:colorPrimaryDark">@color/dark_appBg</item>
+        <item name="android:colorAccent">#ff9999</item>
+    </style>
+    <style name="Dark_dialog">
+        <item name="android:colorAccent">@color/dark_color2Level</item>
+    </style>
+    <style name="Light_ActionBar">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:background">@color/light_actionbarBg</item>
+        <item name="android:titleTextStyle">@style/Light_ActionBar.TitleTextStyle</item>
+    </style>
+    <style name="Light_ActionBar.TitleTextStyle">
+        <item name="android:textColor">@color/light_actionbarColor</item>
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDx">1.5</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="android:shadowRadius">3.75</item>
+    </style>
+    <style name="Light_MenuIcon">
+        <item name="android:src">@drawable/material_menu</item>
+    </style>
+    <style name="Light_PopHeader">
+        <item name="android:textColor">@color/light_actionbarColor</item>
+        <item name="android:background">@drawable/light_dialog_head_bg</item>
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDx">1.5</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="android:shadowRadius">3.75</item>
+    </style>
+    <style name="Light_datePicker">
+        <item name="android:colorPrimary">@color/light_color1Level</item>
+        <item name="android:colorPrimaryDark">@color/light_appBg</item>
+        <item name="android:colorAccent">@color/light_actionbarBg</item>
+    </style>
+    <style name="Light_dialog">
+        <item name="android:colorAccent">@color/light_actionbarBg</item>
+    </style>
+    <style name="MySpinnerDatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+    <style name="MySpinnerTimePicker">
+        <item name="android:timePickerMode">spinner</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media">
+    </style>
+    <style name="Theme.IAPTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme_Dark">
+        <item name="android:windowBackground">@color/dark_appBg</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:actionBarStyle">@style/Dark_ActionBar</item>
+        <item name="_buttonBg">@drawable/dark_button_bg</item>
+        <item name="_buttonColor">@color/dark_buttonColor</item>
+        <item name="_color1stLevel">@color/dark_color1Level</item>
+        <item name="_color2ndLevel">@color/dark_color2Level</item>
+        <item name="_custSpinnerBg">@android:color/transparent</item>
+        <item name="_editTextBg">@drawable/dark_edittext_bg</item>
+        <item name="_expireColor">@color/dark_expireColor</item>
+        <item name="_fabButton">@drawable/dark_fab</item>
+        <item name="_listview">@style/Dark_ListViewStyle</item>
+        <item name="_noRecords">@color/dark_noRecords</item>
+        <item name="_popupBg">@drawable/dark_dialog_bg</item>
+        <item name="_popupHeader">@style/Dark_PopHeader</item>
+        <item name="_spinnerSeperator">#1cffffff</item>
+    </style>
+    <style name="Theme_Dark_Pop">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="_buttonBg">@drawable/dark_button_bg</item>
+        <item name="_buttonColor">@color/dark_buttonColor</item>
+        <item name="_color1stLevel">@color/dark_color1Level</item>
+        <item name="_color2ndLevel">@color/dark_color2Level</item>
+        <item name="_expireColor">@color/dark_expireColor</item>
+        <item name="_popupBg">@drawable/dark_dialog_bg</item>
+        <item name="_popupHeader">@style/Dark_PopHeader</item>
+    </style>
+    <style name="Theme_Light">
+        <item name="android:windowBackground">@color/light_appBg</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:actionBarStyle">@style/Light_ActionBar</item>
+        <item name="_buttonBg">@drawable/light_button_bg</item>
+        <item name="_buttonColor">@color/light_buttonColor</item>
+        <item name="_color1stLevel">@color/light_color1Level</item>
+        <item name="_color2ndLevel">@color/light_color2Level</item>
+        <item name="_custSpinnerBg">@color/light_popBg</item>
+        <item name="_editTextBg">@drawable/light_edittext_bg</item>
+        <item name="_expireColor">@color/light_expireColor</item>
+        <item name="_fabButton">@drawable/light_fab</item>
+        <item name="_noRecords">@color/light_noRecords</item>
+        <item name="_popupBg">@drawable/light_dialog_bg</item>
+        <item name="_popupHeader">@style/Light_PopHeader</item>
+        <item name="_spinnerSeperator">#90909090</item>
+    </style>
+    <style name="Theme_Light_Pop">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="_buttonBg">@drawable/light_button_bg</item>
+        <item name="_buttonColor">@color/light_buttonColor</item>
+        <item name="_color1stLevel">@color/light_color1Level</item>
+        <item name="_color2ndLevel">@color/light_color2Level</item>
+        <item name="_expireColor">@color/light_expireColor</item>
+        <item name="_popupBg">@drawable/light_dialog_bg</item>
+        <item name="_popupHeader">@style/Light_PopHeader</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+    </style>
+    <style name="Widget.Support.CoordinatorLayout">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+    <style name="dtPickerSpinner">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:textSize">@dimen/mediumMinusFont</item>
+        <item name="android:padding">@dimen/tinyMargin</item>
+        <item name="android:startYear">2019</item>
+        <item name="android:datePickerStyle">@style/MySpinnerDatePicker</item>
+    </style>
+    <style name="timePickerSpinner">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:textSize">@dimen/mediumMinusFont</item>
+        <item name="android:padding">@dimen/tinyMargin</item>
+        <item name="android:timePickerStyle">@style/MySpinnerTimePicker</item>
+    </style>
+</resources>

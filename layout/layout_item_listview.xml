@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/smallMargin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/mediumFont" android:textColor="?attr/_color1stLevel" android:id="@+id/textViewDescription" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textSize="@dimen/smallFont" android:textColor="?attr/_color2ndLevel" android:id="@+id/textViewDateAndTime" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textSize="@dimen/smallFont" android:textColor="?attr/_color2ndLevel" android:id="@+id/textViewRptDesc" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

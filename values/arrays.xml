@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="DateTimeStyleText">
+        <item>Calendar</item>
+        <item>Spinner</item>
+    </array>
+    <array name="DateTimeStyleValue">
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="NotifStyleText">
+        <item>Default</item>
+        <item>Default and Popup</item>
+    </array>
+    <array name="NotifStyleValue">
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="ThemeListText">
+        <item>Light</item>
+        <item>Dark</item>
+    </array>
+    <array name="ThemeListValue">
+        <item>1</item>
+        <item>2</item>
+    </array>
+</resources>

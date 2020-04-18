@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/_popupBg" android:paddingLeft="@dimen/largeMargin" android:paddingTop="@dimen/largeMargin" android:paddingRight="@dimen/largeMargin" android:paddingBottom="@dimen/tinyMargin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/tinyMargin">
+    <TextView android:textSize="@dimen/mediumFont" android:textStyle="bold" android:textColor="?attr/_color1stLevel" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Message"/>
+    <TextView android:textSize="@dimen/mediumFont" android:textColor="?attr/_color1stLevel" android:id="@+id/text" android:paddingTop="@dimen/smallMargin" android:paddingBottom="@dimen/smallMargin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/title"/>
+    <Button android:textSize="@dimen/smallFont" android:id="@+id/dialogButtonOK" android:paddingLeft="@dimen/mediumMargin" android:paddingRight="@dimen/mediumMargin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="   OK   " android:layout_below="@+id/text" android:layout_alignParentRight="true" style="?android:attr/borderlessButtonStyle"/>
+</RelativeLayout>

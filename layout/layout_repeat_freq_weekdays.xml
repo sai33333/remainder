@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <CheckBox android:textSize="@dimen/largeFont" android:id="@+id/chk_sun" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/mediumMargin" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Sunday"/>
+    <View android:background="?attr/_spinnerSeperator" android:layout_width="match_parent" android:layout_height="1px"/>
+    <CheckBox android:textSize="@dimen/largeFont" android:id="@+id/chk_mon" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/mediumMargin" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="Monday"/>
+    <View android:background="?attr/_spinnerSeperator" android:layout_width="match_parent" android:layout_height="1px"/>
+    <CheckBox android:textSize="@dimen/largeFont" android:id="@+id/chk_tue" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/mediumMargin" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="Tuesday"/>
+    <View android:background="?attr/_spinnerSeperator" android:layout_width="match_parent" android:layout_height="1px"/>
+    <CheckBox android:textSize="@dimen/largeFont" android:id="@+id/chk_wed" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/mediumMargin" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="Wednesday"/>
+    <View android:background="?attr/_spinnerSeperator" android:layout_width="match_parent" android:layout_height="1px"/>
+    <CheckBox android:textSize="@dimen/largeFont" android:id="@+id/chk_thu" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/mediumMargin" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="Thursday"/>
+    <View android:background="?attr/_spinnerSeperator" android:layout_width="match_parent" android:layout_height="1px"/>
+    <CheckBox android:textSize="@dimen/largeFont" android:id="@+id/chk_fri" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/mediumMargin" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="Friday"/>
+    <View android:background="?attr/_spinnerSeperator" android:layout_width="match_parent" android:layout_height="1px"/>
+    <CheckBox android:textSize="@dimen/largeFont" android:id="@+id/chk_sat" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/mediumMargin" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Saturday"/>
+    <Button android:textSize="@dimen/mediumFont" android:gravity="center" android:id="@+id/btnOK_WD" android:padding="@dimen/mediumMargin" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/tinyMargin" android:text="Done" android:layout_weight="1"/>
+</LinearLayout>

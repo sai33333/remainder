@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="prefKey_autoStart">Key_AutoStart</string>
+    <string name="prefKey_backup">Key_Backup</string>
+    <string name="prefKey_dateTimeMode">Key_DateTimeMode</string>
+    <string name="prefKey_deleteAll">Key_DeleteAll</string>
+    <string name="prefKey_notificationStyle">Key_NotifStyle</string>
+    <string name="prefKey_ringtone">Key_AlarmSound</string>
+    <string name="prefKey_snooze">Key_Snooze</string>
+    <string name="prefKey_sponsor">Key_Sponsor</string>
+    <string name="prefKey_theme">Key_Theme</string>
+    <string name="prefKey_turnOnScreen">Key_TurnOnScreen</string>
+    <string name="prefKey_widget">Key_Widget</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="snoozeLength_default">10</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="talkBack_Create">Create new reminder.</string>
+    <string name="talkBack_Create_widget">Create new reminder. Button</string>
+    <string name="talkBack_EditBox_Description">Enter your reminder text.</string>
+    <string name="talkBack_Empty"> </string>
+    <string name="talkBack_Message_Empty_Reminders">This is just message telling that currently you do not have any reminders scheduled.</string>
+    <string name="talkBack_RepeatType">Click here to select repeat type</string>
+    <string name="talkBack_Rpt_Custom1">Custom 1. Button</string>
+    <string name="talkBack_Rpt_Custom2">Custom 2. Button</string>
+    <string name="talkBack_Rpt_Daily">Every Day. Button</string>
+    <string name="talkBack_Rpt_Hour">Every Hour. Button</string>
+    <string name="talkBack_Rpt_Month">Every Month. Button</string>
+    <string name="talkBack_Rpt_NoRepeat">No Repeating. Button</string>
+    <string name="talkBack_Rpt_Week">Every Week. Button</string>
+    <string name="talkBack_Rpt_WeekDays">Selected Weekdays. Button</string>
+    <string name="talkBack_Rpt_Year">Every Year. Button</string>
+    <string name="talkBack_Save">Save as reminder and go back to home page.</string>
+    <string name="talkBack_Select_Date">Click here to select date</string>
+    <string name="talkBack_Select_Time">Click here to select time</string>
+    <string name="theme_default">1</string>
+</resources>

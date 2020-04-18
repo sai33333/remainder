@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/_custSpinnerBg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/largeMargin" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/largeFont" android:textColor="?attr/_color1stLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/smallMargin" android:text="Every" android:layout_weight="1"/>
+        <NumberPicker android:textSize="@dimen/largeFont" android:id="@+id/picker_Nth" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/smallMargin" android:divider="@color/dark_actionbarBg" android:layout_weight="1"/>
+        <NumberPicker android:textSize="@dimen/largeFont" android:id="@+id/picker_Days" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/smallMargin" android:layout_weight="1"/>
+    </LinearLayout>
+    <Button android:textSize="@dimen/mediumFont" android:gravity="center" android:id="@+id/btnOK_C2" android:padding="@dimen/mediumMargin" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/mediumMargin" android:layout_marginRight="@dimen/mediumMargin" android:layout_marginBottom="@dimen/mediumMargin" android:text="Done" android:layout_weight="1"/>
+</LinearLayout>
